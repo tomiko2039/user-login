@@ -3,28 +3,52 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: font-family: 'Montserrat', sans-serif;
+    
 }
 
 div{
     width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 .first{
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 30px;
     border: 1px solid purple;
+    margin-top: 40px;
 }
 
 .second{
+    width: 600px;
     background-color: purple;
-    
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 20px 150px;
+}
+
+#top{
+    width: 70%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+.link{
+    display: block;
 }
 
 img{
-    margin: ;
+    width: 50px;
 }
 
-.facebook{
-
+.blank{
+    clear: both;
 }
+
+
